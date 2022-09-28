@@ -1,0 +1,165 @@
+# 1. Información del Taller
+site_name: Taller de X Mis-notas-sobre-programacion-easy-plug
+site_description: Estas notas se dedican a la programación de la placa de control Ks0240 keyestudio EASY plug V2.0 con ArduinoBlocks
+site_author: Federico Coca
+site_url: https://fgcoca.github.io/Mis-notas-sobre-programacion-easy-plug/
+
+# 2. Repositorio
+repo_name: fgcoca/Mis-notas-sobre-programacion-easy-plug
+repo_url: https://github.com/fgcoca/Mis-notas-sobre-programacion-easy-plug
+edit_uri: ""
+
+# 3. Copyright
+copyright: Copyright &copy; 2020 - 2025 Federico Coca
+
+# 4. RRSS
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/fgcoca
+      name: Twitter de Federico Coca
+    - icon: fontawesome/brands/github
+      link: https://github.com/fgcoca
+      name: Github de Federico Coca
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/cocafederico/?hl=es
+      name: Instagram de Federico Coca
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/clubroboticagra
+      name: Twitter de Club Robótica Granada 
+
+# 5. Navegación - A28-Sensor MQ-135: mq135.md
+nav:
+  - 1. Introducción: index.md
+  - 2. Actividades:
+    - A01-LED: led.md
+    - A02-Control PWM luminosidad LED: led_PWM.md
+    - A03-Control LED con un pulsador: LEDPulsador.md
+    - A04-Consola serie: consola.md
+    - A05-Sensor LDR: LDR.md
+    - A06-Sensor DHT11: dht11.md
+    - A07-Matriz de 8x8 LEDs: matriz.md
+    - A08-Zumbadores: buzzer.md
+    - A09-Sensor PIR: pir.md
+    - A10-El potenciometro: potenciometro.md
+    - A11-Sensor de golpe: golpe.md
+    - A12-Sensor analógico de temperatura: termistor.md
+    - A13-Sensor analógico de sonido: sonido.md
+    - A14-Detector de nivel agua: nivelagua.md
+    - A15-Sensor del nivel de humedad del suelo: humsuelo.md
+    - A16-Sensor de campo magnético de efecto Hall: hall.md
+    - A17-Sensor de colisión: colision.md
+    - A18-Sensor de inclinación (tilt): tilt.md
+    - A19-Sensor de temperatura LM35: lm35.md
+    - A20-Sensor de llama: llama.md
+    - A21-Sensor de luz ambiental TEMT6000: temt6000.md
+    - A22-Sensor infrarrojo para evitar obstáculos: evitaobs.md
+    - A23-Servomotor: servo.md
+    - A24-Sensor de Ultrasonido: us.md
+    - A25-Pantalla gráfica OLED: oled.md
+    - A26-Módulo relé: rele.md
+    - A27-Módulo joystick: joystick.md
+    - A28-Sensor MQ-135: mq135.md
+    - A29-Módulo RTC DS3231: rtc.md
+    - A30-Acelerómetro de tres ejes ADXL345: acel.md
+    - A31-Potenciómetro deslizante: slide.md
+    - A32-Receptor y emisor de infrarrojos IR: rec_emi_IR.md
+    - A33-Módulo ventilador: ventilador.md
+    - A34-Módulo relé Reed: reed.md
+    - A35-Sensor de vibración: vibra.md
+    - A36-Módulo Bluetooth: bt.md
+    - A37-Módulo con 4 LEDs RGB: 4neo.md
+    - A38-Módulo WiFi mas ESP01: wifi.md
+    - A39-Sensor de eCO2: co2.md
+    - A40-Sensor de color: color.md
+  - Retos:
+    - R01-Saludo por consola: R01.md
+    - R02-Quien parpadea: R02.md
+    - R03-Respiración: R03.md
+    - R04-Luz que fluye: R04.md
+    - R05-Timbre: R05.md
+    - R06-Quien canta: R06.md
+    - R07-Termómetro al revés: R07.md
+    - R08-Aplaudir = luz: R08.md
+    - R09-Farola automática: R09.md
+    - R10-Escape de agua: R10.md
+    - R11-La planta sedienta: R11.md
+    - R12-Veo datos: R12.md
+    - Reto propuesto: Reto_propuesto.md
+  - Miscelanea:
+    - Autor: Miscelanea/about.md 
+    - Licencias: Miscelanea/lic.md
+    - Webgrafia/Bibliografía: Miscelanea/webgrafia.md
+    - Software utilizado: Miscelanea/soft.md
+
+# 6. Google Analytics Reto_propuesto.md
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#  - auto
+
+# 7. Configuración del tema
+theme:
+  name: material
+  # Color - Fuentes - Lenguaje
+  palette:
+    primary: light blue
+    accent: deep purple
+  font:
+    text: Roboto 
+    code: Roboto Mono 
+  logo: img/favicon.png 
+  favicon: img/favicon.png 
+  language: es
+  extra:
+    search:
+      language: es, en
+  # Página 404
+  static_templates:
+    - 404.html
+  # No incluir los JavaScript de MkDocs
+  #include_search_page: false
+  #search_index_only: true
+
+# 8. Extensiones
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      linenums: true
+      # guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# 9. Necesario para la extensión pydownx.arithmatex
+extra_javascript:
+  # Este fichero es opcional y solo si se quiere sobreescribir la configuracion del plugin
+  #- js/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+# 10. Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
