@@ -92,7 +92,7 @@ nav:
     - Webgrafia/Bibliografía: Miscelanea/webgrafia.md
     - Software utilizado: Miscelanea/soft.md
 
-# 6. Google Analytics Reto_propuesto.md
+# 6. Google Analytics
 #google_analytics:
 #  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
 #  - auto
