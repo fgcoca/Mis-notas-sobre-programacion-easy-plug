@@ -1,5 +1,5 @@
 # 1. Información del Taller
-site_name: Taller de X Mis-notas-sobre-programacion-easy-plug
+site_name: Mis-notas-sobre-programacion-easy-plug
 site_description: Estas notas se dedican a la programación de la placa de control Ks0240 keyestudio EASY plug V2.0 con ArduinoBlocks
 site_author: Federico Coca
 site_url: https://fgcoca.github.io/Mis-notas-sobre-programacion-easy-plug/
@@ -72,7 +72,7 @@ nav:
     - A38-Módulo WiFi mas ESP01: wifi.md
     - A39-Sensor de eCO2: co2.md
     - A40-Sensor de color: color.md
-  - Retos:
+  - 3. Retos:
     - R01-Saludo por consola: R01.md
     - R02-Quien parpadea: R02.md
     - R03-Respiración: R03.md
@@ -89,7 +89,7 @@ nav:
   - Miscelanea:
     - Autor: Miscelanea/about.md 
     - Licencias: Miscelanea/lic.md
-    - Webgrafía / Bibliografía: Miscelanea/webgrafia.md
+    - Webgrafía/Bibliografía: Miscelanea/webgrafia.md
     - Software utilizado: Miscelanea/soft.md
 
 # 6. Google Analytics
