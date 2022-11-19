@@ -65,25 +65,3 @@ Vamos a medir la distancia con el sensor de ultrasonidos y mostrar el resultado 
 *Figura A24.5. Solución A24.2*
 
 </center>
-
-# <FONT COLOR=#8B008B>xxx</font>
-## <FONT COLOR=#007575>**xxx**</font>
-### <FONT COLOR=#AA0000>xxx</font>
-
-Profundidad directorios:
-* Imagenes en index: (./img/…..)
-* Archivo: (directorio/nombre-archivo) o (../directorio/nombre-archivo)
-* Enlace interno: (directorio/nombre-archivo)
-
-insertar bloque de código:
-```
-sudo do-release-upgrade
-```
-
-<center>
-
-![Encender y apagar dos LEDs](../img/A01/FA01_8.png)
-
-*Figura A01.8. Encender y apagar dos LEDs*
-
-</center>
